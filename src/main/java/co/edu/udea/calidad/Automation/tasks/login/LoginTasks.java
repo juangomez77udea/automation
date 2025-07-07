@@ -1,4 +1,4 @@
-package co.edu.udea.calidad.Automation.tasks;
+package co.edu.udea.calidad.Automation.tasks.login;
 
 import co.edu.udea.calidad.Automation.userinterfaces.LoginPage;
 import net.serenitybdd.screenplay.Actor;
@@ -25,6 +25,7 @@ public class LoginTasks implements Task {
      * Contiene la secuencia de acciones a realizar.
      * @param actor El actor que está realizando la tarea.
      */
+
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
@@ -38,9 +39,8 @@ public class LoginTasks implements Task {
     }
 
     /**
-     * Este es un método "fábrica" estático. Nos permite crear una instancia de la tarea
+     * Crear una instancia de la tarea
      * de una manera más legible en los Step Definitions.
-     * En lugar de "new LoginTasks(email, password)", escribiremos "LoginTasks.withCredentials(email, password)".
      * @param email El email del usuario.
      * @param password La contraseña del usuario.
      * @return Una instancia de la tarea lista para ser ejecutada.

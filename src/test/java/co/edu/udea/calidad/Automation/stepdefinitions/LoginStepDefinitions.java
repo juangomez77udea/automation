@@ -1,7 +1,7 @@
 package co.edu.udea.calidad.Automation.stepdefinitions;
 
 import co.edu.udea.calidad.Automation.questions.LoginQuestions;
-import co.edu.udea.calidad.Automation.tasks.LoginTasks;
+import co.edu.udea.calidad.Automation.tasks.login.LoginTasks;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -21,7 +21,6 @@ public class LoginStepDefinitions {
         OnStage.setTheStage(new OnlineCast());
     }
 
-    // ¡CORREGIDO! El texto en español ahora coincide con el .feature
     @Given("que el usuario se encuentra en la página de inicio de sesión de Automation Exercise")
     public void queElUsuarioSeEncuentraEnLaPaginaDeInicioDeSesion() {
         OnStage.theActorCalled("user").wasAbleTo(
@@ -29,7 +28,6 @@ public class LoginStepDefinitions {
         );
     }
 
-    // ¡CORREGIDO! El texto en español ahora coincide con el .feature
     @When("hace clic en el boton {string}")
     public void haceClicEnElBoton(String buttonName) {
         theActorInTheSpotlight().attemptsTo(
@@ -37,7 +35,6 @@ public class LoginStepDefinitions {
         );
     }
 
-    // ¡CORREGIDO! El texto en español ahora coincide con el .feature
     @Then("verifica que {string} está visible")
     public void verificaQueEstaVisible(String expectedText) {
         theActorInTheSpotlight().should(
@@ -45,7 +42,6 @@ public class LoginStepDefinitions {
         );
     }
 
-    // ¡CORREGIDO! El texto en español ahora coincide con el .feature
     @When("ingresa el correo electrónico incorrecto {string} y la contraseña {string}")
     public void ingresaElCorreoIncorrectoYContrasena(String email, String password) {
         theActorInTheSpotlight().attemptsTo(
@@ -53,7 +49,6 @@ public class LoginStepDefinitions {
         );
     }
 
-    // ¡CORREGIDO! El texto en español ahora coincide con el .feature
     @Then("el mensaje de error {string} está visible")
     public void elMensajeDeErrorEstaVisible(String expectedErrorMessage) {
         theActorInTheSpotlight().should(
