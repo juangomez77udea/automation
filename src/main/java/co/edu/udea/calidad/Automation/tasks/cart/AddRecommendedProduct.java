@@ -1,14 +1,12 @@
 package co.edu.udea.calidad.Automation.tasks.cart;
 
+import co.edu.udea.calidad.Automation.interactions.addToCart.ClickAndConfirm;
 import co.edu.udea.calidad.Automation.userinterfaces.HomePage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class AddRecommendedProduct implements Task {
 
@@ -21,10 +19,7 @@ public class AddRecommendedProduct implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                // 1. Hace clic en el botón 'Add to cart' del producto especificado
-                Click.on(HomePage.ADD_TO_CART_RECOMMENDED_PRODUCT.of(productName)),
-                // 2. Espera a que el modal de confirmación aparezca
-                WaitUntil.the(HomePage.ADDED_TO_CART_MODAL, isVisible()).forNoMoreThan(10).seconds()
+                ClickAndConfirm.on(HomePage.ADD_TO_CART_RECOMMENDED_PRODUCT.of(productName))
         );
     }
 

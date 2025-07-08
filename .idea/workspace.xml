@@ -4,42 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b20efab-90bc-43fd-af74-85ce83a1220e" name="Changes" comment="commit inicial">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
+    <list default="true" id="6b20efab-90bc-43fd-af74-85ce83a1220e" name="Changes" comment="cambios en configuracion">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/interactions/addToCart/ClickAndConfirm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/interactions/addToCart/ScrollUntilVisible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/interactions/login/FillLoginForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/edu/udea/calidad/Automation/tasks/LoginTasks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/edu/udea/calidad/Automation/runners/LoginIncorrectoRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/co/edu/udea/calidad/Automation/runners/LoginIncorrectoRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/co/edu/udea/calidad/Automation/stepdefinitions/LoginStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/co/edu/udea/calidad/Automation/stepdefinitions/LoginStepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Recommended#20Items#20Functionality.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Recommended#20Items#20Functionality.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/co.edu.udea.calidad.Automation.runners.AddRecommendedItemRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/co.edu.udea.calidad.Automation.runners.AddRecommendedItemRunner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Recommended#20Items#20Functionality.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/co.edu.udea.calidad.Automation.runners.AddRecommendedItemRunner.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/co.edu.udea.calidad.Automation.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/co.edu.udea.calidad.Automation.runners.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/features/page_home_automation.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Recommended#20Items#20Functionality.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Recommended#20Items#20Functionality.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Recommended#20Items#20Functionality.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-co.edu.udea.calidad.Automation.runners.AddRecommendedItemRunner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ScrollToRecommendedItems.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/tasks/LoginTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/tasks/login/LoginTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/edu/udea/calidad/Automation/runners/LoginIncorrectoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/edu/udea/calidad/Automation/runners/LoginIncorrectoRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/edu/udea/calidad/Automation/stepdefinitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/edu/udea/calidad/Automation/stepdefinitions/LoginStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/page_home_automation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login/page_home_automation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/interactions/Interaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/tasks/cart/AddRecommendedProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/tasks/cart/AddRecommendedProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/tasks/cart/ScrollToRecommendedItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/tasks/cart/ScrollToRecommendedItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/tasks/login/LoginTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/udea/calidad/Automation/tasks/login/LoginTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/802eece2c4a264e868b1f1975fbf2d72243688773a422e5c4d40117848079cbc.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/802eece2c4a264e868b1f1975fbf2d72243688773a422e5c4d40117848079cbc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-802eece2c4a264e868b1f1975fbf2d72243688773a422e5c4d40117848079cbc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-802eece2c4a264e868b1f1975fbf2d72243688773a422e5c4d40117848079cbc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c6b75b02b43f2e15f6e2e2336986860b9af8a572f04c9427247ffeea8220d470.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c6b75b02b43f2e15f6e2e2336986860b9af8a572f04c9427247ffeea8220d470.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c6b75b02b43f2e15f6e2e2336986860b9af8a572f04c9427247ffeea8220d470.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c6b75b02b43f2e15f6e2e2336986860b9af8a572f04c9427247ffeea8220d470.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +70,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -122,7 +118,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/features/cart" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AddRecommendedItemRunner">
+  <component name="RunManager" selected="Gradle.LoginIncorrectoRunner">
     <configuration name="AddRecommendedItemRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -173,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AddRecommendedItemRunner" />
         <item itemvalue="Gradle.LoginIncorrectoRunner" />
+        <item itemvalue="Gradle.AddRecommendedItemRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +191,7 @@
       <updated>1751385328338</updated>
       <workItem from="1751385329673" duration="19100000" />
       <workItem from="1751656433339" duration="10378000" />
-      <workItem from="1751900200491" duration="1425000" />
+      <workItem from="1751900200491" duration="9504000" />
     </task>
     <task id="LOCAL-00001" summary="commit inicial">
       <option name="closed" value="true" />
@@ -205,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751404913854</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cambios en configuracion">
+      <option name="closed" value="true" />
+      <created>1751902745317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751902745317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +217,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit inicial" />
+    <MESSAGE value="cambios en configuracion" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios en configuracion" />
   </component>
 </project>
