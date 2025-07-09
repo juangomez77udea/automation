@@ -13,7 +13,7 @@ Posteriormente se crea el proyecto `Gradle` cpn el siguiente comando:
 
     `gradle spa --projectName=TallerAutomatizacion --groupId=co.edu.udea.calidad --principalPackage=Automation --type=UX`
 
-## Se realizaron las pruebas 3,22 y ??? del recurso:
+## Se realizaron las pruebas 3, 22:
 ### Test Automation Practice – AutomationExercise
       https://automationexercise.com/
 
