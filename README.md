@@ -9,7 +9,7 @@ Para iniciar el proyecto creamos el el archvio `buil.gradle` con el siguiente co
 + }" > build.gradle
 ```
 
-Posteriormente se crea el proyecto `Gradle` cpn el siguiente comando:
+Posteriormente se crea el proyecto `Gradle` con el siguiente comando:
 
     `gradle spa --projectName=TallerAutomatizacion --groupId=co.edu.udea.calidad --principalPackage=Automation --type=UX`
 
